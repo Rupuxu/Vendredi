@@ -1,0 +1,59 @@
+.sectionprincipale 
+{ height: 250px;
+  width: 150px;
+  text-align: center;
+  font-family: fantasy;
+  margin-top: 150px;
+  margin-left:450px;
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+}
+@media all and (max-width:480px)
+{
+
+}
+@media all and (min-width:480px) and (max-width:780px)
+{
+    
+}
+@media all and (min-width:781px) and (max-width:979px)
+{
+    
+}
+
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+  white-space: nowrap;
+  float: right;
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#customPopup 
+{
+     position: fixed;
+     display: none;
+     left: 50%;
+     top: 50%;
+     z-index: 2000;
+     padding: 20px;
+     width: 560px;
+     background-color: #EEEEEE;
+     font-size: 12px;
+     line-height: 16px;
+     color: #202020;
+     border : 3px outset #555555;
+}
+.supprimerelement{
+    display: none;
+}
+
+
